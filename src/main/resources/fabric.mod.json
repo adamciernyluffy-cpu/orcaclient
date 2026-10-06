@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "orca",
+  "version": "${version}",
+  "name": "Orca Client",
+  "description": "Futuristic ocean-themed Minecraft client interface.",
+  "authors": ["Orca Client"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.orca.client.OrcaClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "fabric-api": "*",
+    "java": ">=25"
+  }
+}
